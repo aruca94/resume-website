@@ -1,0 +1,93 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    /* letter-spacing: 0.1em; */
+}
+
+.name, .about-me-title {
+    font-size: 1.4em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.circle {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #eea302;
+    border-radius: 50%;
+}
+
+.name-left {
+    display: flex;
+    align-items: center;
+}
+
+.circle, .name {
+    margin-left: .5em;
+}
+
+.nav-bar-right > a {
+    /* font-size: 1.1em; */
+    padding-right: .7em;
+    margin-right: .5em;
+    transition: color 250ms ease;
+    /* text-decoration: none; */
+    /* color: #000000 */
+}
+
+.nav-bar-right > a:hover {
+    color: #A47F00;
+}
+
+.nav-bar-right a:nth-child(1) {
+    border-right: 1px solid #000000;
+}
+
+.nav-bar-right a:nth-child(2) {
+    border-right: 1px solid #000000;
+}
+
+
+footer {
+    width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+
+footer > div:first-child {
+    padding-left: 2em;
+}
+
+footer > p {
+    padding-right: 2em;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+.socials > a {
+    font-size: 1.7em;
+
+}
+
+.fa {
+    margin: .5em 0;
+    padding: 0em .5em 0em .2em;
+}
