@@ -60,6 +60,10 @@ header {
     border-right: 1px solid #000000;
 }
 
+.nav-bar-right a:nth-child(3) {
+    color: #A47F00;
+}
+
 
 footer {
     width: 95%;
