@@ -1,6 +1,7 @@
 body {
     background-color: #f3f3f3;
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -58,7 +59,24 @@ header {
 
 .nav-bar-right a:nth-child(2) {
     border-right: 1px solid #000000;
+    color: #A47F00;
 }
+
+.projects {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
@@ -80,6 +98,7 @@ footer > p {
 
 footer h3 {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .socials > a {
