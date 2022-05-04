@@ -54,6 +54,7 @@ header {
 
 .nav-bar-right a:nth-child(1) {
     border-right: 1px solid #000000;
+    color: #A47F00;
 }
 
 .nav-bar-right a:nth-child(2) {
