@@ -4,6 +4,8 @@
 //  TODO: Add image clips of projects to each project
 //  TODO: Add classes as needed
     //project 1 header
+// const projectOneContainer = document.createElement('div');
+// projectOneContainer.classList.add('projectOne');
 const firstProjectHeading = document.getElementById('project1');
 const firstProjectHeader = document.createElement('h2');
 const firstProjectHeaderText = document.createTextNode('Project 1');
@@ -48,3 +50,6 @@ const thirdProjectParagraphText = document.createTextNode('Project 3 paragraph h
 thirdProjectParagraphTag.appendChild(thirdProjectParagraphText);
 thirdProjectHeading.appendChild(thirdProjectParagraphTag);
     //project 3 image
+const imgThree = document.createElement('img');
+imgThree.src = "images/weather-journal-app.PNG";
+thirdProjectHeading.appendChild(imgThree);
