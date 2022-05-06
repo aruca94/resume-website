@@ -1,9 +1,12 @@
+//  TODO: Add image clips of projects to each project  -- complete
+//  TODO: incorporate a link to the project in each section.
+
+//  note: Add classes as needed
+
+
+
 // project 1 dom manipulation start
 
-
-//  TODO: Add image clips of projects to each project
-//  TODO: Add classes as needed
-    //project 1 header
 // const projectOneContainer = document.createElement('div');
 // projectOneContainer.classList.add('projectOne');
 const firstProjectHeading = document.getElementById('project1');
