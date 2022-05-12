@@ -73,31 +73,39 @@ header {
 
 #project1 {
     display: grid;
-    grid-template-columns: 50% 50%;
-
+    grid-template-columns: 40% 45%;
+    justify-content: space-between;
+    padding: 5em 0em;
 }
 
 #project2 {
     display: grid;
-    grid-template-columns: 50% 50%;
-
+    grid-template-columns: 40% 45%;
+    justify-content: space-between;
+    margin: 5em 0em;
 }
 
 #project3 {
     display: grid;
-    grid-template-columns: 50% 50%;
-
+    grid-template-columns: 40% 45%;
+    padding: 5em 0em 10em 0em;
+    justify-content: space-between;
 }
 
-img {
+.image-link {
     grid-column-start: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 p {
     grid-row-start: 2;
+    line-height: 1.4em;
 }
 /*      if above ever fails restore below on individual sections
 
@@ -111,6 +119,8 @@ p {
 #project3 p {
     grid-row-start: 2;
 } */
+
+
 
 
 
