@@ -17,7 +17,7 @@ a {
 
 header {
     /* border: 2px solid black; */
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5em;
@@ -64,14 +64,21 @@ header {
     color: #A47F00;
 }
 
+#main {
+    margin-top: 3em;
+}
+
+.text-center {
+    margin-bottom: 1em;
+}
 
 footer {
     width: 95%;
-    margin: 0 auto;
+    margin: 4em auto;
     border-top: 1px solid #c7c7c7;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
-    padding: 3em 0;
+    padding: 3em 0em 0em 0em;
 }
 
 footer > div:first-child {
@@ -87,11 +94,22 @@ footer h3 {
 }
 
 .socials > a {
-    font-size: 1.7em;
+    font-size: 2em;
+}
 
+.socials-phone > h3, .socials-email > h3 {
+    padding-bottom: .7em;
 }
 
 .fa {
     margin: .5em 0;
-    padding: 0em .5em 0em .2em;
+    padding: 0em .5em 0em .7em;
 }
+
+/*
+body
+ font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left; */
