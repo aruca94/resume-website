@@ -11,6 +11,7 @@
     // Project 1 heading
 const firstProjectHeading = document.getElementById('project1');
 const firstProjectHeader = document.createElement('a');
+firstProjectHeader.className = 'header';
 firstProjectHeader.setAttribute('href', 'https://github.com/aruca94/tea-cozy-website');
 firstProjectHeader.target = '_blank';
 const firstProjectHeaderText = document.createTextNode('Project 1');
@@ -35,6 +36,7 @@ firstProjectHeading.appendChild(imgLinkOne);
     //Project 2 header
 const secondProjectHeading = document.getElementById('project2');
 const secondProjectHeader = document.createElement('a');
+secondProjectHeader.className = 'header';
 secondProjectHeader.setAttribute('href', 'https://github.com/aruca94/fend-landing-page');
 secondProjectHeader.target = '_blank';
 const secondProjectHeaderText = document.createTextNode('Project 2');
@@ -58,6 +60,7 @@ secondProjectHeading.appendChild(imgLinkTwo);
     //Project 3 header
 const thirdProjectHeading = document.getElementById('project3');
 const thirdProjectHeader = document.createElement('a');
+thirdProjectHeader.className = 'header';
 thirdProjectHeader.setAttribute('href', 'https://github.com/aruca94/fend-weather-app');
 thirdProjectHeader.target = '_blank';
 const thirdProjectHeaderText = document.createTextNode('Project 3');
